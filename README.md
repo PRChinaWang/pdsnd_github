@@ -7,7 +7,9 @@ Include the date you created this project and README file.
 Explore US bike share data
 
 ### Description
-Describe what your project is about and what it does
+Use data provided by MOTIVATE to uncover bike share usage patterns
+Compare the system usage among three large cities: Chicago, New York and Washington
+
 
 ### Files used
 Include the files used
