@@ -218,8 +218,11 @@ def display_raw_data(raw_dataframe):
             break
         user_request = input('Do you want to go on with the next five rows? enter "yes" or "no"')
         i += 5
+# main() function should be read at the very first time
 def main():
     while True:
+        # the three input is provided by the git_filters() function
+        # notice the return statement in the git_filters() function
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
